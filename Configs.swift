@@ -1,11 +1,4 @@
-/*----------------------------------------
 
-- iRestaurant -
-
-Created by FV iMAGINATION ©2015.
-All rights reserved.
-
-------------------------------------------*/
 
 import Foundation
 import UIKit
