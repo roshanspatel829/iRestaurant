@@ -1,5 +1,4 @@
 
-
 import UIKit
 import CloudKit
 
@@ -19,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         
-        // REGISTER FOR PUSH NOTIFICATIONS
+         //REGISTER FOR PUSH NOTIFICATIONS
         let userNotificationTypes:UIUserNotificationType = [.Alert, .Badge, .Sound]
         let settings = UIUserNotificationSettings(forTypes: userNotificationTypes, categories: nil)
         application.registerUserNotificationSettings(settings)
@@ -27,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIApplication.sharedApplication().applicationIconBadgeNumber = 0
         
         
-        // FOR PUSH NOTIFICATIONS WITH ONE SIGNAL SERVICE (http://onesignal.com)
+         //FOR PUSH NOTIFICATIONS WITH ONE SIGNAL SERVICE (http://onesignal.com)
         _ = OneSignal(launchOptions: launchOptions, appId: ONESIGNAL_APP_ID, handleNotification: nil)
         OneSignal.defaultClient().enableInAppAlertNotification(true)
         
