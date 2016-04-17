@@ -238,7 +238,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XUC-M6-UkB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="213" y="695"/>
+            <point key="canvasLocation" x="213" y="773"/>
         </scene>
         <!--Events-->
         <scene sceneID="Ted-0y-JtO">
@@ -254,7 +254,7 @@
                                 <color key="backgroundColor" red="0.21176470589999999" green="0.1843137255" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EventCell" rowHeight="136" id="Zb6-ba-2Gi" userLabel="EventCell" customClass="EventCell" customModule="iRestaurant" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="136"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="136"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zb6-ba-2Gi" id="fI6-AO-Teh">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="136"/>
@@ -322,7 +322,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IfN-Zc-SJE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="931" y="695"/>
+            <point key="canvasLocation" x="931" y="711"/>
         </scene>
         <!--Location-->
         <scene sceneID="aFH-NF-uPw">
@@ -442,7 +442,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BA4-ht-yFW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1279" y="695"/>
+            <point key="canvasLocation" x="1279" y="873"/>
         </scene>
         <!--Gallery-->
         <scene sceneID="l3B-r9-gvq">
@@ -788,7 +788,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="567" y="855"/>
+            <point key="canvasLocation" x="567" y="933"/>
         </scene>
         <!--Event Details-->
         <scene sceneID="Niq-CC-rhp">
